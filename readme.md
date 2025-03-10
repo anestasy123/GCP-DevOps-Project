@@ -1,1 +1,1 @@
-### this a repo for our new GCP project
+### This a repo for our new GCP project
