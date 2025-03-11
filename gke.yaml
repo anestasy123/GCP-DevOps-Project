@@ -17,7 +17,7 @@ spec:
         app: gcp-devops
     spec:
       containers:
-      - image: gcr.io//gcpdevops
+      - image: gcr.io/level-epoch-436108-t8/gcpdevops:latest
         name: gcpdevops
         ports:
         - containerPort: 5000
