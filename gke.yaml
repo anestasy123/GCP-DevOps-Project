@@ -6,7 +6,7 @@ metadata:
   name: gcp-devops
   namespace: gcp-devops-dev
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: gcp-devops
