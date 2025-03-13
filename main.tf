@@ -25,6 +25,7 @@ resource "google_container_cluster" "primary" {
   # Enable required features
   enable_autopilot = false
   #enable_shielded_nodes = true
+  deletion_protection = false  
 }
 
 resource "google_container_node_pool" "primary_nodes" {
